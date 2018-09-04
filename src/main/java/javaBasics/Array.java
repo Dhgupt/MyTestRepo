@@ -8,7 +8,7 @@ import java.util.Set;
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.StringUtils;
 
-public class UsingArray {
+public class Array {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
