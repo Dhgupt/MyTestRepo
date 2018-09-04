@@ -1,4 +1,4 @@
-package com.pages;
+package com.seleniumBasics;
 
 import java.util.Iterator;
 import java.util.List;

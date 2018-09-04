@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.pages.CalendarTest">
+      <class name="com.seleniumBasics.CalendarTest">
         <methods>
           <include name="f"/>
           <include name="beforeMethod"/>
         </methods>
-      </class> <!-- com.pages.CalendarTest -->
+      </class> <!-- com.seleniumBasics.CalendarTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

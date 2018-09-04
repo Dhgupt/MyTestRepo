@@ -1,4 +1,4 @@
-package com.pages;
+package com.seleniumBasics;
 
 public class WebTableData {
 

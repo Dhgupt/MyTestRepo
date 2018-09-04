@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" total="2" passed="1">
+<testng-results skipped="1" failed="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="70475" started-at="2018-09-03T16:06:51Z" finished-at="2018-09-03T16:08:01Z">
+  <suite name="Default suite" duration-ms="38573" started-at="2018-09-04T11:27:35Z" finished-at="2018-09-04T11:28:13Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="70475" started-at="2018-09-03T16:06:51Z" finished-at="2018-09-03T16:08:01Z">
-      <class name="com.pages.CalendarTest">
-        <test-method status="FAIL" signature="beforeMethod()[pri:0, instance:com.pages.CalendarTest@42e26948]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-09-03T21:36:51Z" finished-at="2018-09-03T21:36:51Z">
+    <test name="Default test" duration-ms="38573" started-at="2018-09-04T11:27:35Z" finished-at="2018-09-04T11:28:13Z">
+      <class name="com.seleniumBasics.CalendarTest">
+        <test-method status="FAIL" signature="beforeMethod()[pri:0, instance:com.seleniumBasics.CalendarTest@1794d431]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-09-04T16:57:35Z" finished-at="2018-09-04T16:57:35Z">
           <exception class="org.openqa.selenium.InvalidSelectorException">
             <message>
               <![CDATA[invalid selector: Unable to locate an element with the xpath expression [contains(text(),'02:00 PM')] because of the following error:
@@ -17,10 +17,10 @@ SyntaxError: Failed to execute 'evaluate' on 'Document': The string '[contains(t
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
-System info: host: 'WKWIN9454823', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+System info: host: 'WKWIN9454823', ip: '10.203.87.213', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\dhegupta\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60287}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
-Session ID: 6770a95e4c51574a81e03ce01f1a2ce9
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\dhegupta\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54939}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 633c01851332df6732a756032bd634a4
 *** Element info: {Using=xpath, value=[contains(text(),'02:00 PM')]}]]>
             </message>
             <full-stacktrace>
@@ -31,10 +31,10 @@ SyntaxError: Failed to execute 'evaluate' on 'Document': The string '[contains(t
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
-System info: host: 'WKWIN9454823', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+System info: host: 'WKWIN9454823', ip: '10.203.87.213', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\dhegupta\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60287}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
-Session ID: 6770a95e4c51574a81e03ce01f1a2ce9
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\dhegupta\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54939}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 633c01851332df6732a756032bd634a4
 *** Element info: {Using=xpath, value=[contains(text(),'02:00 PM')]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -52,7 +52,7 @@ Session ID: 6770a95e4c51574a81e03ce01f1a2ce9
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at com.pages.CalendarTest.beforeMethod(CalendarTest.java:79)
+	at com.seleniumBasics.CalendarTest.beforeMethod(CalendarTest.java:79)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -85,21 +85,15 @@ Session ID: 6770a95e4c51574a81e03ce01f1a2ce9
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="f()[pri:0, instance:com.pages.CalendarTest@42e26948]" name="f" duration-ms="2" started-at="2018-09-03T21:37:30Z" finished-at="2018-09-03T21:37:30Z">
+        <test-method status="SKIP" signature="f()[pri:0, instance:com.seleniumBasics.CalendarTest@1794d431]" name="f" duration-ms="2" started-at="2018-09-04T16:58:13Z" finished-at="2018-09-04T16:58:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.pages.CalendarTest@42e26948]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-09-03T21:37:30Z" finished-at="2018-09-03T21:37:30Z">
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.seleniumBasics.CalendarTest@1794d431]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-09-04T16:58:13Z" finished-at="2018-09-04T16:58:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- com.pages.CalendarTest -->
-      <class name="com.pages.Flipkart">
-        <test-method status="PASS" signature="goToHomePage()[pri:0, instance:com.pages.Flipkart@464bee09]" name="goToHomePage" duration-ms="31223" started-at="2018-09-03T21:37:30Z" finished-at="2018-09-03T21:38:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goToHomePage -->
-      </class> <!-- com.pages.Flipkart -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.seleniumBasics.CalendarTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

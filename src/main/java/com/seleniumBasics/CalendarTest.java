@@ -1,4 +1,4 @@
-package com.pages;
+package com.seleniumBasics;
 
 import org.testng.annotations.Test;
 
