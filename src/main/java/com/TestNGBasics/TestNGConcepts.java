@@ -12,8 +12,13 @@ public void a(){
 }
 
   @Test (invocationCount=3)
-  public void f() {
-	  System.out.println("Test");
+  public void f1() {
+	  System.out.println("Test1");
+  }
+  
+  @Test (invocationCount=2)
+  public void f2() {
+	  System.out.println("Test2");
   }
   
   @AfterMethod
