@@ -1,4 +1,4 @@
-package javaBasics;
+package com.javaBasics;
 
 public class IterationsUsingLambdaExpression {
 

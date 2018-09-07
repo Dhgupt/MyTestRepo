@@ -1,4 +1,4 @@
-package javaBasics;
+package com.javaBasics;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -25,13 +25,13 @@ public class Array {
 		System.out.println("print directly will print reference value ---------------------------------->");
 		
 		System.out.println(intArray);
-		System.out.println(aArray);
+		System.out.println(intArray[1]);
 		System.out.println(bArray);
 		System.out.println(cArray);
 		
 		//Prints the values 
 		System.out.println("print the array values ---------------------------------->");
-		System.out.println("aArray " + Arrays.toString(intArray));
+		System.out.println("intArray " + Arrays.toString(intArray));
 		System.out.println("aArray " + Arrays.toString(aArray));
 		System.out.println("bArray " + Arrays.toString(bArray));
 		System.out.println("cArray " + Arrays.toString(cArray));
