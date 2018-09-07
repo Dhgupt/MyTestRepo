@@ -26,6 +26,11 @@ public void a(){
 	  System.out.println("Test1");
   }
   
+  @Test (invocationCount=4)
+  public void f4() {
+	  System.out.println("Test4");
+  }
+  
   @AfterMethod
   public void c(){
 	  System.out.println("After the Test Method");
