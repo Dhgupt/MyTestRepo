@@ -16,7 +16,7 @@ public void a(){
 	  System.out.println("Test1");
   }
   
-  @Test (invocationCount=2)
+  @Test (invocationCount=1)
   public void f2() {
 	  System.out.println("Test2");
   }
