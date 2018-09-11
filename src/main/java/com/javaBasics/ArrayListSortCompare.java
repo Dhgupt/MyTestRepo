@@ -1,3 +1,15 @@
+/*-----------------------------------Arraylist ---------------------------------------
+ * Arraylist <type> al = new Arraylist<type>();
+ * add
+ * remove
+ * size
+ * iterator
+ * while (iterator.hasNext())
+ * collections.sort(ArrayList);
+ * collections.sort(ArrayList, ReverseOrder);
+ * boolean resultcompList = listOne.equals(listTwo);
+ * -----------------------------------------------------------------------------------*/
+
 package com.javaBasics;
 
 import java.util.ArrayList;
@@ -45,7 +57,8 @@ public class ArrayListSortCompare {
 
 		listOne.add("overflow");
 		listOne.add("stack");
-
+		listOne.remove(1);
+	
 		listTwo.add("stack");
 		listTwo.add("overflow");
 

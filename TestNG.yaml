@@ -1,0 +1,8 @@
+name: Suite
+configFailurePolicy: skip
+tests:
+  - name: SmokeTest
+    parameters: { firstname: Dheeraj, lastname: Gupta }
+    classes:
+      - com.TestNGBasics.TestNGConcepts
+

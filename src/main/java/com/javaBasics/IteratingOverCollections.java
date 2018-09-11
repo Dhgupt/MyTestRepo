@@ -1,3 +1,9 @@
+/*-------------------------------------------- Iterating through collections-------------
+ * 1. Classic For Loop
+ * 2. Iterator Method - While loop with the iterator
+ * 3. Enhanced For Loop
+ * 4. Lambda Expression
+ * -------------------------------------------------------------------------------------*/
 package com.javaBasics;
 
 import java.util.ArrayList;

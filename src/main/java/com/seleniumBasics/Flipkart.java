@@ -47,22 +47,17 @@ public class Flipkart {
 		
 		System.out.println("Test Done");
 		PageFactory.initElements(driver, this);
-		
-		//driver.switchTo().alert();
-		//Thread.sleep(5000);
-		/*driver.findElement(By.xpath("//input[@type='text']")).sendKeys("9910308270");
-		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("Mon");
-*/	
-		/*suser.sendKeys("9910308270");
-		sPassword.sendKeys("test");*/
-		
-		driver.findElement(By.className("_2zrpKA")).sendKeys("9910308270");
-		//driver.findElement(By.xpath("//input[@type='text']")).sendKeys(" YOUR USER NAME");
-		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("Monday01!");
-		//driver.findElement(By.xpath("//input[@type='submit']")).click();
-		driver.findElement(By.className("_2zrpKA")).submit();
-		//		suser.sendKeys("9910308270");
-		
+		WebElement sUser = driver.findElement(By.className("_2zrpKA"));
+		WebElement sPass = driver.findElement(By.xpath("//input[@type='password']"));
+		WebElement bSubmit = driver.findElement(By.className("_2zrpKA"));
+
+		JavaScriptExecutorCustom.flash(sUser, driver);
+		sUser.sendKeys("9910308270");
+		JavaScriptExecutorCustom.flash(sPass, driver);
+		sPass.sendKeys("Monday01!");
+		JavaScriptExecutorCustom.flash(bSubmit, driver);
+		bSubmit.submit();
+
 
 		Thread.sleep(5000);
 /*		Set<String> handler = driver.getWindowHandles();

@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 
 public class FindElementsConcept {
 
@@ -39,8 +40,13 @@ public class FindElementsConcept {
 			System.out.println(linkText);
 		}
 		
+		driver.findElement(By.xpath("//*[@name = 'firstname']")).sendKeys("Dheeraj");
+		driver.findElement(By.xpath("//*[@name ='lastname']")).sendKeys("Gupta");
 		
-		
+		Select s1 = new Select(driver.findElement(By.xpath("//*[@id = 'day']")));
+			
+		s1.selectByValue("26");
+	
 	}
 
 }
